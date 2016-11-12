@@ -15,7 +15,7 @@ RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true 
 RUN apt-get -y install oracle-java8-installer oracle-java8-set-default libjansi-java
 
 #Installs Maven
-RUN apt-get install maven
+RUN apt-get -y install maven
 
 # Installs Scala and SBT
 RUN \
