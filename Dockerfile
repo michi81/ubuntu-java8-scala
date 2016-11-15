@@ -3,8 +3,8 @@ FROM ubuntu:latest
 
 MAINTAINER Michele Prisco <michele.prisco@gmail.com>
 
-ENV SCALA_VERSION 2.11.8
-ENV SBT_VERSION 0.13.13
+ARG SCALA_VERSION=2.11.8
+ARG SBT_VERSION=0.13.13
 
 RUN apt-get update
 
